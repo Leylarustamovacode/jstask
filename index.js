@@ -194,6 +194,118 @@
 //     { urunAdi: "Çikolata", fiyat: 3.0, stok: 60, kategori: "Şekerleme" }
 // ];
 
+// let tonBaligiIndex = -1;
+
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i].urunAdi === "Ton Balığı") {
+//         tonBaligiIndex = i;
+//         break;
+//     }
+// }
+
+// console.log("Ton Balığının indexi: " + tonBaligiIndex);
+// #################################################################################################
+
+
+// let arr = [
+//     { urunAdi: "Beyaz Ekmek", fiyat: 2.5, stok: 100, kategori: "Ekmek" },
+//     { urunAdi: "Süt", fiyat: 3.75, stok: 50, kategori: "Süt ve Süt Ürünleri" },
+//     { urunAdi: "Domates", fiyat: 2.0, stok: 80, kategori: "Meyve ve Sebzeler" },
+//     { urunAdi: "Salatalık", fiyat: 1.5, stok: 60, kategori: "Meyve ve Sebzeler" },
+//     { urunAdi: "Tavuk Göğsü", fiyat: 15.0, stok: 30, kategori: "Et ve Et Ürünleri" },
+//     { urunAdi: "Muz", fiyat: 4.0, stok: 40, kategori: "Meyve ve Sebzeler" },
+//     { urunAdi: "Ton Balığı", fiyat: 10.0, stok: 20, kategori: "Konserve ve Hazır Yiyecekler" },
+//     { urunAdi: "Soda", fiyat: 51, stok: 100, kategori: "İçecekler" },
+//     { urunAdi: "Yoğurt", fiyat: 2.25, stok: 40, kategori: "Süt ve Süt Ürünleri" },
+//     { urunAdi: "Çikolata", fiyat: 3.0, stok: 60, kategori: "Şekerleme" }
+// ];
+
+// console.log(arr.filter(x=>x.stok>50));
+
+// ######################################################################################################
+
+// let arr = [
+//     { urunAdi: "Beyaz Ekmek", fiyat: 2.5, stok: 100, kategori: "Ekmek" },
+//     { urunAdi: "Süt", fiyat: 3.75, stok: 50, kategori: "Süt ve Süt Ürünleri" },
+//     { urunAdi: "Domates", fiyat: 2.0, stok: 80, kategori: "Meyve ve Sebzeler" },
+//     { urunAdi: "Salatalık", fiyat: 1.5, stok: 60, kategori: "Meyve ve Sebzeler" },
+//     { urunAdi: "Tavuk Göğsü", fiyat: 15.0, stok: 30, kategori: "Et ve Et Ürünleri" },
+//     { urunAdi: "Muz", fiyat: 4.0, stok: 40, kategori: "Meyve ve Sebzeler" },
+//     { urunAdi: "Ton Balığı", fiyat: 10.0, stok: 20, kategori: "Konserve ve Hazır Yiyecekler" },
+//     { urunAdi: "Soda", fiyat: 51, stok: 100, kategori: "İçecekler" },
+//     { urunAdi: "Yoğurt", fiyat: 2.25, stok: 40, kategori: "Süt ve Süt Ürünleri" },
+//     { urunAdi: "Çikolata", fiyat: 3.0, stok: 60, kategori: "Şekerleme" }
+// ];
+
+// console.log(arr.filter(x=>x.kategori=="Meyve ve Sebzeler"));
+
+
+// #################################################################################################
+// let arr = [
+//     { urunAdi: "Beyaz Ekmek", fiyat: 2.5, stok: 100, kategori: "Ekmek" },
+//     { urunAdi: "Süt", fiyat: 3.75, stok: 50, kategori: "Süt ve Süt Ürünleri" },
+//     { urunAdi: "Domates", fiyat: 2.0, stok: 80, kategori: "Meyve ve Sebzeler" },
+//     { urunAdi: "Salatalık", fiyat: 1.5, stok: 60, kategori: "Meyve ve Sebzeler" },
+//     { urunAdi: "Tavuk Göğsü", fiyat: 15.0, stok: 30, kategori: "Et ve Et Ürünleri" },
+//     { urunAdi: "Muz", fiyat: 4.0, stok: 40, kategori: "Meyve ve Sebzeler" },
+//     { urunAdi: "Ton Balığı", fiyat: 10.0, stok: 20, kategori: "Konserve ve Hazır Yiyecekler" },
+//     { urunAdi: "Soda", fiyat: 51, stok: 100, kategori: "İçecekler" },
+//     { urunAdi: "Yoğurt", fiyat: 2.25, stok: 40, kategori: "Süt ve Süt Ürünleri" },
+//     { urunAdi: "Çikolata", fiyat: 3.0, stok: 60, kategori: "Şekerleme" }
+// ];
+
+// console.log(arr.filter(x=>x.kategori=="Meyve ve Sebzeler"&&x.stok>2));
+
+// #############################################################################################3
+
+// let arr = [
+//         { urunAdi: "Beyaz Ekmek", fiyat: 2.5, stok: 100, kategori: "Ekmek" },
+//         { urunAdi: "Süt", fiyat: 3.75, stok: 50, kategori: "Süt ve Süt Ürünleri" },
+//         { urunAdi: "Domates", fiyat: 2.0, stok: 80, kategori: "Meyve ve Sebzeler" },
+//         { urunAdi: "Salatalık", fiyat: 1.5, stok: 60, kategori: "Meyve ve Sebzeler" },
+//         { urunAdi: "Tavuk Göğsü", fiyat: 15.0, stok: 30, kategori: "Et ve Et Ürünleri" },
+//         { urunAdi: "Muz", fiyat: 4.0, stok: 40, kategori: "Meyve ve Sebzeler" },
+//         { urunAdi: "Ton Balığı", fiyat: 10.0, stok: 20, kategori: "Konserve ve Hazır Yiyecekler" },
+//         { urunAdi: "Soda", fiyat: 51, stok: 100, kategori: "İçecekler" },
+//         { urunAdi: "Yoğurt", fiyat: 2.25, stok: 40, kategori: "Süt ve Süt Ürünleri" },
+//         { urunAdi: "Çikolata", fiyat: 3.0, stok: 60, kategori: "Şekerleme" }
+//     ];
+    
+//     console.log(arr.filter(x=>x.urunAdi=="Süt"&&x.stok>2));
+
+// ###################################################################################################################
+
+// let arr = [
+//     { urunAdi: "Beyaz Ekmek", fiyat: 2.5, stok: 100, kategori: "Ekmek" },
+//     { urunAdi: "Süt", fiyat: 3.75, stok: 50, kategori: "Süt ve Süt Ürünleri" },
+//     { urunAdi: "Domates", fiyat: 2.0, stok: 80, kategori: "Meyve ve Sebzeler" },
+//     { urunAdi: "Salatalık", fiyat: 1.5, stok: 60, kategori: "Meyve ve Sebzeler" },
+//     { urunAdi: "Tavuk Göğsü", fiyat: 15.0, stok: 30, kategori: "Et ve Et Ürünleri" },
+//     { urunAdi: "Muz", fiyat: 4.0, stok: 40, kategori: "Meyve ve Sebzeler" },
+//     { urunAdi: "Ton Balığı", fiyat: 10.0, stok: 20, kategori: "Konserve ve Hazır Yiyecekler" },
+//     { urunAdi: "Soda", fiyat: 51, stok: 100, kategori: "İçecekler" },
+//     { urunAdi: "Yoğurt", fiyat: 2.25, stok: 40, kategori: "Süt ve Süt Ürünleri" },
+//     { urunAdi: "Çikolata", fiyat: 3.0, stok: 60, kategori: "Şekerleme" }
+// ];
+
+// console.log(arr.filter(x=>x.urunAdi=="Süt"&&x.stok>2));
+
+// ############################################################################################################3
+
+
+// let arr = [
+//     { urunAdi: "Beyaz Ekmek", fiyat: 2.5, stok: 100, kategori: "Ekmek" },
+//     { urunAdi: "Süt", fiyat: 3.75, stok: 50, kategori: "Süt ve Süt Ürünleri" },
+//     { urunAdi: "Domates", fiyat: 2.0, stok: 80, kategori: "Meyve ve Sebzeler" },
+//     { urunAdi: "Salatalık", fiyat: 1.5, stok: 60, kategori: "Meyve ve Sebzeler" },
+//     { urunAdi: "Tavuk Göğsü", fiyat: 15.0, stok: 30, kategori: "Et ve Et Ürünleri" },
+//     { urunAdi: "Muz", fiyat: 4.0, stok: 40, kategori: "Meyve ve Sebzeler" },
+//     { urunAdi: "Ton Balığı", fiyat: 10.0, stok: 20, kategori: "Konserve ve Hazır Yiyecekler" },
+//     { urunAdi: "Soda", fiyat: 51, stok: 100, kategori: "İçecekler" },
+//     { urunAdi: "Yoğurt", fiyat: 2.25, stok: 40, kategori: "Süt ve Süt Ürünleri" },
+//     { urunAdi: "Çikolata", fiyat: 3.0, stok: 60, kategori: "Şekerleme" }
+// ];
+
 // let tonBaligiIndex = arr.map(item => item.urunAdi).indexOf("Ton Balığı");
 
 // console.log("Ton Balığının indexi: " + tonBaligiIndex);
